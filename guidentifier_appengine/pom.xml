@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-1.0-sdk</artifactId>
-			<version>1.9.10</version>
+			<version>1.9.17a</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -46,13 +46,13 @@
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-testing</artifactId>
-			<version>1.9.10</version>
+			<version>1.9.17a</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-stubs</artifactId>
-			<version>1.9.10</version>
+			<version>1.9.17a</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -77,7 +77,7 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<version>3.1</version>
+				<version>3.2</version>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.7</source>
@@ -87,7 +87,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.4</version>
+				<version>2.6</version>
 				<configuration>
 					<archiveClasses>true</archiveClasses>
 					<webResources>
@@ -104,7 +104,7 @@
 			<plugin>
 				<groupId>com.google.appengine</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<version>1.9.10</version>
+				<version>1.9.17a</version>
 				<configuration>
 					<enableJarClasses>false</enableJarClasses>
 					<!-- Comment in the below snippet to bind to all IPs instead of just 
