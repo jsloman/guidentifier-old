@@ -1,0 +1,76 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#title {
+	background: #7777ff;
+	width: 100%;
+	font-size: 40px;
+}
+
+#breadcrumbs {
+	background: #ffffaa;
+	width: 100%;
+}
+
+#region {
+	background: #88ffff;
+	float: left;
+ 	width: 250;
+}
+
+#region ul { 
+	list-style-type: none; 
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+
+#type {
+	background: #ffddff;
+	float: left;
+	width: auto;
+}
+
+#topcontent {
+	background: #ffffff;
+	float:left;
+	width: auto;
+}
+
+#guide {
+	background: #ffdddd;
+	float: left;
+	width: 250;
+}
+
+#guide ul { 
+	list-style-type: none; 
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+
+#identifier {
+	background: #ddddff;
+	float: left;
+	width: auto;
+}
+
+#species {
+	background: #ddddff;
+	float: left;
+	width: auto;
+}
+
+#info {
+	background: #ddffdd;
+	width: auto;
+}
+
+#admin {
+	background: #aaffaa;
+	clear: both;
+	width: 100%;
+}
